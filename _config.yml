@@ -14,8 +14,8 @@ title_separator          : "-"
 name                     : &name "Francisco Eslava Sáenz"
 description              : &description "Postdoctoral Scholar at the Hoffmann Centre for Sustainable Development, Geneva Graduate Institute (IHEID). Development economics, political economy, economic history."
 url                      : https://franciscoeslavasaenz.github.io
-baseurl                  : "/new-site-test" # staging path; remove at cutover
-repository               : "franciscoeslavasaenz/new-site-test"
+baseurl                  : ""
+repository               : "franciscoeslavasaenz/franciscoeslavasaenz.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
