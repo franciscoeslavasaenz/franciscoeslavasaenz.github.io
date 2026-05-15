@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Postdoctoral Scholar at the [Hoffmann Centre for Sustainable Development](https://www.graduateinstitute.ch/hoffmann-centre) at the Geneva Graduate Institute (IHEID). I earned my PhD in Economics from the [Vancouver School of Economics](https://economics.ubc.ca/), University of British Columbia, in 2025. Previously, I obtained an MA and BA in Economics from [Universidad de los Andes](https://economia.uniandes.edu.co/).
+I am a Postdoctoral Scholar at the [Hoffmann Centre for Sustainable Development](https://www.graduateinstitute.ch/discover-institute/francisco-eslava-saenz) at the Geneva Graduate Institute (IHEID). I earned my PhD in Economics from the [Vancouver School of Economics](https://economics.ubc.ca/), University of British Columbia, in 2025. Previously, I obtained an MA and BA in Economics from [Universidad de los Andes](https://economia.uniandes.edu.co/).
 
 My research interests lie at the intersection of **Development Economics**, **Political Economy**, and **Economic History**.
 
