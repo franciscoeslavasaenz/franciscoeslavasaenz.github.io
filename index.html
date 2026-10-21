@@ -81,15 +81,24 @@ a:hover { text-decoration: underline; }
   padding-bottom: 0.5rem;
   border-bottom: 1px solid #e0ddd6;
 }
+/* Group labels: separated by space above and a trailing rule, not by size */
 .subsection-title {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
   font-family: 'Source Serif 4', serif;
-  font-size: 1.05rem; font-weight: 600;
+  font-size: 0.85rem; font-weight: 600;
   color: #555;
-  margin-top: 2rem;
+  margin-top: 3.2rem;
   margin-bottom: 1.2rem;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+}
+.subsection-title::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #e0ddd6;
 }
 .subsection-title:first-of-type { margin-top: 0; }
 
@@ -226,11 +235,32 @@ a:hover { text-decoration: underline; }
     <p class="subsection-title">Work in Progress</p>
 
     <div class="paper">
-      <p class="paper-title">The Lasting Impacts of US Foreign Interventions in Central America: The "School of the Americas"</p>
+      <p class="paper-title">Peace Rules! The Impact of a Rule-Based International Order on Peace</p>
+      <p class="paper-meta">with <a href="https://sites.google.com/view/resteves">Rui Esteves</a> and <a href="https://sites.google.com/site/dprohner/">Dominic Rohner</a></p>
+      <button class="abstract-toggle" onclick="toggle(this)">+ Abstract</button>
+      <div class="abstract-text">
+        Multilateral governance is currently under severe pressure, which some see as reason for alarm and others as ground for rejoicing. To investigate conflicting claims on the causal impact of the multilateral architecture on peace, we have assembled a novel global dataset of international treaties covering the years 1820–2014. We draw on exogenous variation from the heterogeneous impact of global shifts in the frequency of international treaties and in regional networks. We find that exogenous surges in multilateralism foster peace in asymmetric dyads, protecting small countries from wars with greater powers. Using large language models we are able to investigate the mechanisms at work and key peace-promoting ingredients of international treaties.
+      </div>
+      <div class="paper-links">
+        <span class="paper-note">Draft soon!</span>
+      </div>
+    </div>
+
+    <div class="paper">
+      <p class="paper-title">The Spoils of War: Resource Windfalls and Interstate Conflict</p>
+      <p class="paper-meta">with <a href="https://sites.google.com/view/jonathanfederle">Jonathan Federle</a>, <a href="https://sites.google.com/site/dprohner/">Dominic Rohner</a>, and <a href="https://www.moritzschularick.com/">Moritz Schularick</a></p>
+      <button class="abstract-toggle" onclick="toggle(this)">+ Abstract</button>
+      <div class="abstract-text">
+        Interstate war is making a comeback, yet we still know little about how exogenous changes in appropriable rents drive the onset of conflict between states. We assemble a novel panel of country-level mineral production since the beginning of the 20th century and exploit commodity price shocks to estimate how different types of commodities affect a country's likelihood of attacking and of being attacked. We find that countries experiencing a resource windfall are more likely to be attacked when those resources are appropriable. Building on a simple structural model, we then quantify the share of war spoils appropriated by the winner and how it varies with political bias and regime type. Our estimates suggest that the winning side appropriates one-third of all resources after a war.
+      </div>
+    </div>
+
+    <div class="paper">
+      <p class="paper-title">The Lasting Impacts of Foreign Interests during the Guatemalan Civil War</p>
       <p class="paper-meta">with <a href="https://www.eduardo-montero.com">Eduardo Montero</a> and <a href="https://montecristo.vancouver.wsu.edu/">Felipe Valencia Caicedo</a></p>
       <button class="abstract-toggle" onclick="toggle(this)">+ Abstract</button>
       <div class="abstract-text">
-        Examines the impacts of US foreign policy on Central American conflicts, focusing on the United Fruit Company's interests and on the role of the School of the Americas in training officers involved in the Guatemalan Civil War. Digitizes UFC operational data and SOA graduate records, and uses spatial regression discontinuity designs to document significant relationships between these institutions and conflict-era violence patterns.
+        This paper examines how foreign economic and military interests shaped patterns of violence and repression during the Guatemalan Civil War (1960–1996). While existing research has largely focused on the consequences of conflict, less is known about the external drivers and institutional dynamics that influence its onset and escalation. We focus on two key channels of foreign involvement: the presence of multinational firms with extensive landholdings and infrastructure, and the rotation of Guatemalan army officers who received standardized military training abroad. To study these links, we compile and digitize historical corporate maps, military assignment records, and archival documents on human rights violations. Using municipalities as the unit of analysis, we apply spatial regression discontinuity designs, leverage officer rotation patterns across units, and instrument for foreign firm presence using agro-ecological suitability. Our findings shed light on how international actors, through their interactions with local institutions, may have shaped the intensity and distribution of violence. Beyond contributing to the historical record of the Guatemalan conflict, the study broadens the scope of the economics of conflict by integrating corporate strategy and military structure into the analysis of mass violence. The resulting dataset will be made publicly available to support further research.
       </div>
     </div>
 
